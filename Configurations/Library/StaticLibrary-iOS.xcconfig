@@ -1,0 +1,4 @@
+//  Copyright (c) Ryan Gomba. All rights reserved.
+
+#include "../Platforms/Platform-iOS.xcconfig"
+#include "StaticLibrary.xcconfig"

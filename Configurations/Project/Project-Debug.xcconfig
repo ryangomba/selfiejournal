@@ -1,0 +1,18 @@
+//  Copyright (c) Ryan Gomba. All rights reserved.
+
+#include "Project.xcconfig"
+
+// Build Options
+COMPRESS_PNG_FILES = YES
+
+// Deployment
+COPY_PHASE_STRIP = NO
+
+// Code Generation
+GCC_OPTIMIZATION_LEVEL = 0
+
+// Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1
+
+INCLUDE_INTERNAL_RESOURCES = YES
+DEBUG_INFORMATION_FORMAT = dwarf

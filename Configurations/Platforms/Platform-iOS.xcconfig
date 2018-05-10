@@ -1,0 +1,18 @@
+//  Copyright 2013-present Ryan Gomba. All rights reserved.
+
+// Architectures
+
+ARCHS = armv7
+
+// SDK
+
+SDKROOT = iphoneos
+
+// Deployment
+
+IPHONEOS_DEPLOYMENT_TARGET = 7.0
+TARGETED_DEVICE_FAMILY = 1,2 // iPhone, iPad
+
+// Code Signing
+
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer

@@ -1,0 +1,10 @@
+//  Copyright 2013-present Ryan Gomba. All rights reserved.
+
+// Architectures
+
+ARCHS = x86_64
+ONLY_ACTIVE_ARCH = YES
+
+// SDK
+
+SDKROOT = macosx10.9

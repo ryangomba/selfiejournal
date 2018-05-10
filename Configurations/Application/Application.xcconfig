@@ -1,0 +1,17 @@
+//  Copyright (c) Ryan Gomba. All rights reserved.
+
+// Code Signing
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+
+// Deployment
+DSTROOT = /tmp/$(TARGET_NAME)
+SKIP_INSTALL = YES
+
+// Linking
+OTHER_LDFLAGS = -ObjC -all_load -lc++
+
+// Packaging
+WRAPPER_EXTENSION = app
+
+// ARC
+CLANG_ENABLE_OBJC_ARC = YES

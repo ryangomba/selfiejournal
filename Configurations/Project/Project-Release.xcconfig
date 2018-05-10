@@ -1,0 +1,16 @@
+//  Copyright (c) Ryan Gomba. All rights reserved.
+
+#include "Project.xcconfig"
+
+// Build Options
+VALIDATE_PRODUCT = YES
+COMPRESS_PNG_FILES = NO
+
+// Code Generation
+GCC_OPTIMIZATION_LEVEL = s
+
+INCLUDE_INTERNAL_RESOURCES = NO
+GCC_WARN_UNUSED_VARIABLE = NO
+
+// Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = NS_BLOCK_ASSERTIONS
